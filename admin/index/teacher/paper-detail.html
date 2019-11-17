@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/layui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    body {
+        margin: 10px;
+        background-color: #e6e3e3;
+    }
+    </style>
+</head>
+
+<body >
+    <div class="wrap-title">
+        <h1>试卷详情</h1>
+    </div>
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md8">
+            <div class="grid-demo grid-demo-bg1" style="padding: 20px;
+    background: #ffff; height: 366px;">
+                <div class="layui-card">
+                    <div class="layui-card-header" ><h2>准考考生列表</h2></div>
+                    <div class="layui-card-body">
+                        <button type="button" class="layui-btn layui-btn-lg layui-btn-radius layui-btn-normal" style="width: 700px;  background-image: linear-gradient(to right, #FFBE97,#FF7397 );"><img src="images/de.png" style="margin-right: 5px; width: 25px; height:25px;" alt="">清空准考生列表</button><br><br>
+
+                        <button type="button" class="layui-btn layui-btn-lg layui-btn-radius layui-btn-normal" style="width: 700px; background-image: linear-gradient(to right, #90CAF9,#057EDF )"><img src="images/jurassic.png" style="margin-right: 5px; width: 25px; height:25px;" alt="">批量导入学生</button>
+
+                    <div class="add-info">
+                        <h4>*点击可删除单个学生</h4>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md4">
+            <div class="grid-demo" style="padding: 20px;
+    background: #ffff;">
+                <div class="table-title">
+                    <h2>基本信息</h2>
+                </div>
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="150">
+                        <col width="200">
+                        <col>
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>项目</th>
+                            <th>数据</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>试卷编号</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>试卷名称</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>出题老师</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>是否开放</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>题目数量</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>考生人数</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>交卷人数0</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/layui.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
